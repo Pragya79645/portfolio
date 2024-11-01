@@ -22,3 +22,5 @@ sr.reveal('.share' ,{delay:950, origin: 'bottom'});
 sr.reveal('.home-img' ,{delay:1000, origin: 'right'});
 
 
+
+

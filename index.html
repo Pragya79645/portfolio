@@ -14,6 +14,9 @@
     <!--google fonts-->
 </head>
 <body>
+    <button onclick="scrollToSection">Go to LET US CONNECT Section</button>
+
+
     <!--header-->
     <header>
         <a href="#" class="logo"><span>P</span>ortfolio</a>
@@ -33,19 +36,25 @@
         <div class="home-text">
             <span>WEB DEVELOPER</span>
             <h1>PRAGYA SINGH</h1>
-            <p>Hello I am Pragya Singh</p>
+            <p>Hello I am Pragya Singh &#128075</p>
             <div class="main-btn">
-                <a href="#" class="btn">HELLO</a>
+                <a href="#" class="btn">ABOUT</a>
                 <a href="#" class="btn two">Let's Connect</a>
+                <p style="margin-top: 50px; font-family: Arial, Helvetica, sans-serif; font-size: 20px;">Hello! I'm Pragya Singh, a passionate Information Technology student with a love for blending technology with creativity. <br>I specialize in graphic design, web design, and web development, bringing ideas to life through a blend of innovative</br>design and coding. My journey in tech is driven by a desire to create meaningful, user-centered digital experiences.</br>
+                Beyond the technical, I enjoy engaging with audiences through public speaking, sharing knowledge, and fostering</br> community in the tech world. Whether it's through a well-crafted website or a compelling presentation, I aim to make a positive impact.</p>
             </div>
         </div>
+        
+       
 
         <div class="home-img">
             <img src="../../../../img.jpg">
         </div>
+       
     </section>
+   
     <div class="share">
-        <p>Check Out MY:</p>
+        <p id="accounts">LET US CONNECT:</p>
         <div class="social">
             <a href="https://www.instagram.com/pragyasingh1340/profilecard/?igsh=YTNpem15dnMwd2p5"><i class='bx bxl-instagram'></i></a>
             <a href="https://github.com/Pragya79645"><i class='bx bxl-github'></i></a>
@@ -55,6 +64,11 @@
 
     <script src="https://unpkg.com/scrollreveal"></script>
     <!--custom js file-->
+    <script>
+        function scrollToSection() {
+            document.getElementsByID("accounts").scrollIntoView({behavior: "smooth"});
+        }
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
