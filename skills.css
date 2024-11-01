@@ -21,7 +21,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(217, 220, 211);
     text-decoration: none;
 }
 
@@ -35,11 +35,12 @@ h2 {
     flex-wrap: wrap;
     justify-content: center;
     margin: 2rem;
+  
 }
 
 .skill {
     background-color: #e7f566;
-    border: 1px solid #06032a;
+    border: 1px solid #0e0948;
     border-radius: 5px;
     padding: 1rem;
     margin: 1rem;
