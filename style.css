@@ -289,3 +289,14 @@ transition: 0.2s;
     animation: url(../../../../img.jpg) 2s ease-in-out infinite;
     animation-delay: 2s;
 }
+@keyframes img {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-22px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
